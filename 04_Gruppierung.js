@@ -5,13 +5,13 @@
 
 function checkGroupingAndAlternatives(inputString) {
   // Regulärer Ausdruck, der überprüft, ob die Zeichenfolge "cat", "dog" oder "bird" enthält
-  const containsAnimal = /(cat|dog|bird)/;
+  const containsAnimal =  [];
 
   // Regulärer Ausdruck, der überprüft, ob die Zeichenfolge "abc" oder "xyz" enthält, gefolgt von einer Ziffer
-  const containsAbcOrXyzWithDigit = /(abc|xyz)\d/;
+  const containsAbcOrXyzWithDigit =  [];
 
   // Regulärer Ausdruck, der überprüft, ob die Zeichenfolge mit einem Großbuchstaben beginnt, gefolgt von Kleinbuchstaben oder Ziffern, und mit einem Punkt endet
-  const startsWithCapitalAndEndsWithPeriod = /^[A-Z][a-z0-9]*\.$/;
+  const startsWithCapitalAndEndsWithPeriod =  [];
 
   // Überprüfen, ob die Zeichenfolge alle Bedingungen erfüllt
   const containsAnimalResult = containsAnimal.test(inputString);

@@ -9,13 +9,13 @@
 
 function checkQuantifiers(inputString) {
   // Regulärer Ausdruck, der überprüft, ob die Zeichenfolge ein Wort mit 3 bis 6 Buchstaben enthält
-  const wordWithThreeToSixLetters = /\b[a-zA-Z]{3,6}\b/;
+  const wordWithThreeToSixLetters =  [];
 
   // Regulärer Ausdruck, der überprüft, ob die Zeichenfolge genau zwei Ziffern enthält
-  const exactlyTwoDigits = /\b\d{2}\b/;
+  const exactlyTwoDigits = [];
 
   // Regulärer Ausdruck, der überprüft, ob die Zeichenfolge null oder mehr Leerzeichen enthält
-  const zeroOrMoreSpaces = /\s*/;
+  const zeroOrMoreSpaces = [];
 
   // Überprüfen, ob die Zeichenfolge alle Bedingungen erfüllt
   const wordWithThreeToSixLettersResult =

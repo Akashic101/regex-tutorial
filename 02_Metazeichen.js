@@ -6,13 +6,13 @@
 
 function checkPatterns(inputString) {
   // Regulärer Ausdruck, der überprüft, ob die Zeichenfolge mit einem Großbuchstaben beginnt
-  const startsWithCapital = /^[A-Z]/;
+  const startsWithCapital =  [];
 
   // Regulärer Ausdruck, der überprüft, ob die Zeichenfolge genau drei Ziffern hintereinander enthält
-  const containsThreeDigits = /\d{3}/;
+  const containsThreeDigits = [];
 
   // Regulärer Ausdruck, der überprüft, ob die Zeichenfolge mit einem Punkt endet
-  const endsWithPeriod = /\.$/;
+  const endsWithPeriod =  [];
 
   // Überprüfen, ob die Zeichenfolge alle Bedingungen erfüllt
   const startsWithCapitalResult = startsWithCapital.test(inputString);

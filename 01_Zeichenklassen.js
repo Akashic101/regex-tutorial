@@ -18,7 +18,7 @@
 
 function findCharacterClasses(inputString) {
   // Regulärer Ausdruck zur Suche nach Kleinbuchstaben, Großbuchstaben, Ziffern und Sonderzeichen
-  const regex = /[a-zA-Z0-9!@#$%&*]/g;
+  const regex = [];
 
   // Alle Vorkommen der Zeichenklassen in einem Array speichern
   const matches = inputString.match(regex);
